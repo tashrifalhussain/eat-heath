@@ -1,0 +1,44 @@
+body{
+font-family: 'Poppins', sans-serif;
+}
+.a{
+    color:yellowgreen
+}
+section{
+    display:flex;
+    margin: 10;
+}
+.half-width{
+    width: 50%;
+    padding:3% ;
+
+}
+.half-width img{
+    width: 90%; 
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    color:yellowgreen;
+}
+.button{
+    
+    background-image:repeating-linear-gradient(rgb(217, 255, 0),rgb(50, 205, 166));
+    text-decoration: none;
+    padding: 15px 5px;
+    border-radius:5px ;
+    font-weight: 700 ;
+    font-style: oblique;
+    color: rgb(74, 10, 87);
+    
+
+}
+.top-banner{
+    background-image: url(images/shapes/Group\ 8450.png);
+   background-repeat: no-repeat;
+    background-size:50%;
+   
+    background-position:right;
+    background-color: azure;
+}
