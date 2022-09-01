@@ -7,6 +7,7 @@ font-family: 'Poppins', sans-serif;
 .flexable-contanier{
     display:flex;
     margin-bottom: 200px;
+   
 }
 .half-width{
     width: 50%;
@@ -54,3 +55,19 @@ h1{
 .center{
     text-align: center;
 }
+.boxmoddel-style{
+    box-shadow: 20px 20px 50px gold;
+margin-left: 5%;
+margin-right: 5%;
+border-radius: 10px;
+background-position: center;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .ccc{
+    background-color:rgb(134, 22, 22)
+    
+  }
